@@ -11,7 +11,7 @@ This project is to build three microservices and each of which serves as an inde
 | ------------- | ------------- |
 | Movie Catalog Service | 8080 |
 | Movie Info Service | 8000, 8001, 8002, ... |
-| Movie Rating Data | 8100, 8101, 8102, ...  |
+| Movie Rating Data Service | 8100, 8101, 8102, ...  |
 | Spring Cloud Config Server | 8888 |
 | Netflix Eureka Naming Server | 8761 |
 | Netflix Zuul API Gateway Server | 8765 |
@@ -22,7 +22,7 @@ This project is to build three microservices and each of which serves as an inde
 | ------------- | ------------- |
 | Movie Catalog Service | http://localhost:8080/catalog/1 |
 | Movie Info Service | http://localhost:8000/movies/ http://localhost:8000/movies/10001 |
-| Movie Rating Data | http://localhost:8100/ratingdata/user/1 http://localhost:8100/ratingdata/movies/10001 |
+| Movie Rating Data Service | http://localhost:8100/ratingdata/user/1 http://localhost:8100/ratingdata/movies/10001 |
 | Netflix Eureka Naming Server | http://localhost:8761/ |
 | Netflix Zuul API Gateway Server | http://localhost:8765/movie-info-service/movies/10001 http://localhost:8765/movie-rating-data-service/ratingdata/user/1 |
 | Zipkin Distributed Tracing Server | http://localhost:9411/ |
