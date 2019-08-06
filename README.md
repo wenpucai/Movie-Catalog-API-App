@@ -94,11 +94,18 @@ public interface BarClient {
 
 ## Snapshots
 ### Movie Catalog Service
+![catalog.png](./snapshots/catalog.png)
 
 ### Movie Info Service
+![movieinfo.png](./snapshots/movieinfo.png)
+![movieinfo10001.png](./snapshots/movieinfo10001.png)
 
 ### Movie Rating Data Service
+![ratingdatauser.png](./snapshots/ratingdatauser.png)
+![ratingdatamovie.png](./snapshots/ratingdatamovie.png)
 
 ### Eureka Naming Server
+![eureka.png](./snapshots/eureka.png)
 
 ### Zipkin Distributed Tracing Server
+![zipkin.png](./snapshots/zipkin.png)
