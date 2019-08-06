@@ -5,6 +5,7 @@ A catalog service consolidating movie info service and rating data service in mi
 This project is to build three microservices and each of which serves as an independent application communicating amongst each other through API calls. The first application is a movie information service which provides all details of movies. The second application is a rating data service which provides all ratings of movies given by a specific user. The third application serves as a catalog service orchestrating the other two services and providing meaningful data to clients.
 
 ## Architecture
+![architecture.png](./architecture/Architecture.png)
 
 ## Ports
 |     Applications       |     Ports         |
