@@ -67,7 +67,7 @@ RABBIT_ADDRESSES=localhost java -jar zipkin.jar
 2) Find and kill processes locking ports on Mac
 * Find: ``[sudo] lsof -i :3000``
 * Kill: ``kill -9 <PID>``
-3) Calling a service with multiple feign clients with the same name
+3) Calling a service with multiple feign clients by the same name
 - Issue: https://github.com/spring-cloud/spring-cloud-netflix/issues/1139
 - Solution:  https://stackoverflow.com/questions/52850357/migration-netflix-feign-in-springboot-1-x-to-openfeign-in-springboot-2-x
 - Discussion:\
