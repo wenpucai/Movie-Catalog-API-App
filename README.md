@@ -26,7 +26,7 @@ This project is to build three microservices and each of which serves as an inde
 | Netflix Eureka Naming Server | http://localhost:8761/ |
 | Netflix Zuul API Gateway Server | http://localhost:8765/movie-info-service/movies/10001 http://localhost:8765/movie-rating-data-service/ratingdata/user/1 |
 | Zipkin Distributed Tracing Server | http://localhost:9411/ |
-| Spring Cloud Bus Refresh | http://localhost:8080/bus/refresh |
+| Spring Cloud Bus Refresh | http://localhost:8080/actuator/bus/refresh |
 
 ## Implementation
 ### IDE
@@ -93,3 +93,12 @@ public interface BarClient {
 - https://stackoverflow.com/questions/56838165/h2-console-stopped-working-after-updating-from-spring-cloud-greenwich-sr1-to-sr2
 
 ## Snapshots
+### Movie Catalog Service
+
+### Movie Info Service
+
+### Movie Rating Data Service
+
+### Eureka Naming Server
+
+### Zipkin Distributed Tracing Server
