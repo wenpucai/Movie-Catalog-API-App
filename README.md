@@ -30,10 +30,10 @@ This project is to build three microservices and each of which serves as an inde
 
 ## Implementation
 ### IDE
-Spring Tool Suite 4
+* Spring Tool Suite 4
 
 ### Database
-H2
+* H2
 
 ### RabbitMQ
 * **Installation**
